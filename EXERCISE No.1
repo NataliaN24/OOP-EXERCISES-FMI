@@ -44,4 +44,15 @@ int smallbyreference(int& a, int& b) {
 	else {
 		return b;
 	}
+	
 }
+int main()
+{
+int a;
+int b;
+cin>>a>>b;
+cout<<smallerbypointer(&a,&b);
+cout<<endl;
+cout<<smallnr(a,b);
+cout<<endl;
+cout<<smallbyreference(a,b);
