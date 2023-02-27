@@ -3,10 +3,10 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+//Implement functions that, given two integers, return the smaller of them by passing the numbers by value
+//, as a pointer and by reference(alias).
+//Use the const keyword and demonstrate with examples when it is possible (and when not) to use each of the functions.
 
-//Реализирайте функции, която по две цели числа връща по - малкото от тях като подавата числата по стойност
-//, като указател и чрез референция(псевдоним).
-//Използвайте ключова дума const и демонстрирайте чрез примери кога е възможна(и кога не) употребата на всяка една от функциите.
 
 int smallerbypointer(int *a, int *b) {
 
