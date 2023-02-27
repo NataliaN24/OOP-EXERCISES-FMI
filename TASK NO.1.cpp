@@ -54,4 +54,5 @@ int main() {
 	cout << smallerbypointer(&a, &b)<<endl;
 	cout << smallbyreference(a, b)<<endl;
 	cout << smallnr(a, b)<<endl;
+	
 }
