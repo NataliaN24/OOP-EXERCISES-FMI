@@ -4,6 +4,9 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+//To create a pair structure that represents an ordered pair of natural numbers.
+//To create a structure that represents a relation. There are at most 25 ordered pairs in the relation and the structure keeps its current size.
+//Create a function writeRelationToFile(...) that writes the relation to a file named "relation.txt" and readRelationFromFile(...) that reads the relation from the file.
 const int MAX = 25;
 struct Pair {
     int first;
