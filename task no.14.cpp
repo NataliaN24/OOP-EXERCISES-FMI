@@ -3,6 +3,11 @@
 using std::cin;
 using std::cout;
 using std::endl;
+//Implement a User structure to hold a given user's name, 
+//email, and password. Each field has a maximum length of 128 characters. Make a user writeable and readable to a text file.
+//
+//Implement a System structure that has an array of Users.The system
+//supports a maximum of 100 users.Create methods to save and read an object of type System from a file.
 
 const int MAX_LENGTH = 128;
 const int MAX_USERS = 100;
